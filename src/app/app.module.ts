@@ -21,6 +21,7 @@ import { MatRadioModule } from '@angular/material/radio';
 import { ReactiveFormsModule } from '@angular/forms';
 import { LocalidadesComponent } from './components/localidades/localidades.component';
 import { MatTreeModule } from '@angular/material/tree';
+import { TreeComponent } from './components/tree/tree.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { MatTreeModule } from '@angular/material/tree';
     NavigationComponent,
     DashboardComponent,
     FormComponent,
-    LocalidadesComponent
+    LocalidadesComponent,
+    
   ],
   imports: [
     BrowserModule,
